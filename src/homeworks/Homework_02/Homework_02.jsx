@@ -6,7 +6,7 @@ function Homework_02() {
     <div className="homework02_page_wrapper">
       <SimpsonsCard
         firstName="Homer"
-        lastName="Simpson"
+        lastName="Simpson" 
         job="Программист" 
         hobby="Еда и сон"
         avatar="https://avatars.mds.yandex.net/i?id=0452d3168af7c9a8d1344b9ae35164be088b7f45-9233745-images-thumbs&n=1340"
