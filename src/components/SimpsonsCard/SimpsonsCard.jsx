@@ -17,6 +17,6 @@ function SimpsonsCard({ firstName, lastName, job, hobby, avatar }) {
       </p>
     </div>
   );
-}
+} 
 
 export default SimpsonsCard;

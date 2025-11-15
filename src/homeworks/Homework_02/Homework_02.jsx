@@ -12,7 +12,7 @@ function Homework_02() {
         avatar="https://avatars.mds.yandex.net/i?id=0452d3168af7c9a8d1344b9ae35164be088b7f45-9233745-images-thumbs&n=1340"
       />
 
-      <SimpsonsCard
+      <SimpsonsCard 
         firstName="Homer"
         lastName="Simpson"
         job="QA-инженер" 
