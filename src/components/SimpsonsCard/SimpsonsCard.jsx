@@ -1,13 +1,6 @@
 import "./styles.css";
 
-// props - это возможность передавать данные из родительского компонента в дочерний компонет
-// props является обьектом
-// function SimpsonsCard(props) {
 function SimpsonsCard({ firstName, lastName, job, hobby, avatar }) {
-  // До деструктуризации props в аргументе SimpsonsCard
-  // console.log(props);
-  // const { firstName, lastName, job, hobby, avatar } = props;
-
   return (
     <div className="card">
       <img className="avatar" src={avatar} alt="User Avatar" />
@@ -24,6 +17,7 @@ function SimpsonsCard({ firstName, lastName, job, hobby, avatar }) {
       </p>
     </div>
   );
-}
+} 
 
 export default SimpsonsCard;
+
