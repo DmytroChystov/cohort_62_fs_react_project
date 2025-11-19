@@ -7,12 +7,22 @@ import "./styles.css";
 
 // export default Button;
 
-function Button({ text, type = "button" }) {
+// function Button({ text, type = "button" }) {
+//   return (
+//     <button type={type} className="button_component">
+//       {text}
+//     </button>
+//   );
+// }
+
+// export default Button;
+
+
+function Button({ name = "Send", type = "button", onClick }) {
   return (
-    <button type={type} className="button_component">
-      {text}
+    <button className="button_component" type={type} onClick={onClick}>
+      {name}
     </button>
   );
 }
-
 export default Button;

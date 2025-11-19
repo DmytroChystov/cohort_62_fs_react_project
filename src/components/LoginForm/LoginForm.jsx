@@ -3,11 +3,21 @@ import Button from "../Button/Button";
 import "./styles.css";
 
 function LoginForm({}) {
+//   const login = () => {
+//     console.log("Login successfull");
+//   };
+
+const Login =(event) => {
+  event.preventDefault();
+  console.log("Login successful");
+};
   return (
+   
     <div className="login_form_wrapper">
       <h2 className="login_form_title">Login form</h2>
 
-      <form className="login_form">
+      <form onSubmit={login} className="login_form_wrapper">
+      {/* <form className="login_form"> */}
         <Input
           name="Email"
           type="Email"
@@ -20,7 +30,10 @@ function LoginForm({}) {
           label="Password"
           placeholder="Enter your Password"
         />
-        <Button text="Login" />
+              {/* <Button text="Login" /> */}
+              <button onClick={login} id="clickme_button" type="button">
+        Click me
+      </button>
       </form>
     </div>
   );
